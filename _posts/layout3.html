@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>layout3</title>
+ </head>
+
+<style>
+
+body{
+	font-size:12px;
+	font-family:맑은고딕,돋음,굴림;
+	line-height:1.6;  /*줄간격*/
+	text-align:center;
+}
+
+.wrap{
+	width:1230px;
+	height:1200px;
+}
+
+header{
+	width:1220px;
+	height:100px;
+	border:1px solid #cccccc;
+	background-color:yellow; /*-color 빼도 됨*/
+	margin-bottom:20px;
+}
+
+nav{
+	width:1200px;
+	height:50px;
+	border:1px solid #cccccc;
+	background-color:pink;
+}
+
+section{
+	float:left;
+	width:850px;
+	height:450px;
+	border:1px solid #cccccc;
+	background-color:blue;
+}
+
+article{
+	position:relative;
+	float:left;
+	width:700px;
+	height:100px;
+	border:1px solid #cccccc;
+	background-color:skyblue;
+	left:8%;
+	top:70%;
+}
+
+aside{
+	position:relative;
+	left:850px;
+	width:350px;
+	height:450px;
+	border:1px solid #cccccc;
+	background-color:red;
+	margin-left:20px;
+}
+
+footer{
+	width:1220px;
+	height:50px;
+	border:1px solid #cccccc;
+	background-color:green;
+	margin-top:20px;
+}
+
+</style>
+
+ <body>
+	<div class="wrap">
+		<header>
+			헤더
+		</header>
+
+		<section>
+		섹션
+
+			<article>
+			아티클
+			</article>
+
+		</section>
+
+		
+
+		<aside>
+			<div style="position:relative;top:-300px;">
+				어사이드
+			</div>
+		</aside>
+
+		<footer>
+			푸터
+		</footer>
+	<div>
+
+ </body>
+</html>
